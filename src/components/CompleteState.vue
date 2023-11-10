@@ -12,7 +12,6 @@
 </template>
 
 <script setup>
-import { shallowReactive } from "vue";
 import Image from "../assets/iconcomplete.svg";
 let msg = "We've added your card details";
 </script>
