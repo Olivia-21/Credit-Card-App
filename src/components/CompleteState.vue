@@ -7,13 +7,17 @@
       <h3>Thank You!</h3>
       <p>{{ msg }}</p>
     </div>
-    <button class="butt">Continue</button>
+    <button class="butt" @click="clickContinue">Continue</button>
   </div>
 </template>
 
 <script setup>
 import Image from "../assets/iconcomplete.svg";
-let msg = "We've added your card details";
+import { ref } from "vue";
+let msg = ref("We've added your card details");
+// import CreditCard from "./CreditCard.vue";
+
+let clickContinue = () => {};
 </script>
 
 <style>

@@ -1,4 +1,5 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/global.css";
-createApp(App).mount("#app");
+import VueCreditCardValidation from "vue-credit-card-validation";
+createApp(App).use(VueCreditCardValidation).mount("#app");
